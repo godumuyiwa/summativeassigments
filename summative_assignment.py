@@ -16,6 +16,7 @@ for i in range(1,33):
 clusterkeys = major_sensor_cluster_data.keys()
 clusterkeys.sort()
 for key in clusterkeys:
+    #printing the ordered sensor data for 32 clusters with 16 sensor readings per cluster
     print (key, major_sensor_cluster_data[key])
 
 
